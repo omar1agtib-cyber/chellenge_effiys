@@ -1,0 +1,152 @@
+.topnav {
+  height: 90px;
+
+  .top {
+    height: 66px;
+    background: #ffffff;
+    gap: 10px;
+    padding: 14px 21px;
+    .topContent {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .dashboard {
+        font-size: 20px;
+        line-height: 26.04px;
+      }
+
+      .profile {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        .notification {
+          position: relative;
+          background: #d235651a;
+          width: 32px;
+          height: 32px;
+          border-radius: 60px;
+
+          .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #7f1f67;
+            width: 100%;
+            height: 100%;
+            gap: 6px;
+            padding: 6px;
+          }
+
+          .badge {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 12px;
+            height: 12px;
+            padding: 0px 6px;
+            background: #d23565;
+            border-radius: 9px;
+            gap: 6px;
+            font-size: 9px;
+            line-height: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+          }
+        }
+
+        .frame {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+
+          .group {
+            .anima {
+              font-size: 14px;
+              line-height: 18.23px;
+              color: #0d062d;
+            }
+            .company {
+              text-align: end;
+              font-size: 12px;
+              line-height: 15.62px;
+              color: #787486;
+            }
+          }
+
+          .avatar {
+            border-radius: 10px;
+            width: 31.7px;
+            height: 32.13px;
+            background: #e0146163;
+            color: #7f1f67;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 8px 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .bottom{
+    border-top: 1px solid #F1F3F9;
+    padding: 4px 20px;
+    display: flex;
+    gap: 10px;
+    background: #ffffff;
+
+    .bottomContent{
+        display: flex;
+        align-items: center;
+        gap: 11px;
+
+        .icon{
+            width: 16px;
+            height: 16px;
+
+
+            .home{
+                width: 100%;
+                height: 100%;
+            }
+            i{
+                color: #D23565;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10px;
+          }
+          
+          li {
+            list-style: none;
+            font-size: 12px;
+            line-height: 14.52px;
+            width: 45px;
+            height: 16px;
+            position: relative;
+            margin-right: 10px;
+            color: #8B8D97;
+          }
+          
+          li::before {
+            content: '/ ';
+            height: 100%;
+            position: absolute;
+            color: #8B8D97;
+            left: -10px;
+          }
+          
+    }
+  }
+}
