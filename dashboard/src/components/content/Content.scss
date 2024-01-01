@@ -430,40 +430,40 @@
                 color: #000000;
               }
 
-              .add{
+              .add {
                 width: 282px;
                 text-align: center;
                 font-size: 14px;
                 line-height: 17px;
-                color: #8B8D97;
+                color: #8b8d97;
               }
             }
 
-            .buttons{
+            .buttons {
               display: flex;
               align-items: center;
               justify-content: center;
               gap: 10px;
               padding: 17px 16px;
               border-radius: 12px;
-              background-color: #D23565;
+              background-color: #d23565;
 
-              .labelContainer{
+              .labelContainer {
                 display: flex;
                 gap: 20px;
 
-                .icon{
+                .icon {
                   width: 24px;
                   height: 24px;
 
-                  i{
+                  i {
                     font-size: 19px;
-                    color: #FFFFFF;
+                    color: #ffffff;
                   }
                 }
 
-                .label{
-                  color: #FFFFFF;
+                .label {
+                  color: #ffffff;
                   font-size: 16px;
                   line-height: 19.36px;
                 }
